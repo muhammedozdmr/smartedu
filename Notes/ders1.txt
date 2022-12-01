@@ -1,0 +1,20 @@
+1) Neden Venv sanal ortam oluşturulur ?
+-Python yada Django sürümleri güncellendiğinde yada eski sürüm kullanılan bir sistemde çalıştırıldığında projenin etkilenmemesi için
+*python -m venv (istenilen klasör ismi)
+*env\Scripts\activate
+-Sanal Ortamda Hangi Paketler Var ?
+*pip freeze
+-Djangonun sanal ortama yüklenmesi;
+*pip install Django
+-Pip upgrade;
+*pip install --upgrade pip
+-Django Admin ile ilgili komutları
+*django-admin --help
+-Yeni proje oluşturma;
+*django-admin startproject proje_adi . (Bu şekilde yaptığımda alt alta aynı isimli klasör oluşturmaz direkt ana klasörde oluşturur)
+**fakat biz smartedu diye "." olmadan açıcaz altına bir smartedu daha eklicek ana projemiz ilk klasörün ismini değişicez
+-Django projesini ayağa kaldırma;
+*python manage.py runserver
+-Github'da projeyi eklemek için önce Github üzerinde repository aç sonra vscode içinde gitignore ekle
+*Bilgisayarda git yüklü olması lazım
+-Gitignore.io sayfasını ziyaret et
